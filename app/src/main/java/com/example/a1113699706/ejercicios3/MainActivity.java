@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if(et_masa.getText().toString()!= "" && et_altura.getText().toString() != "") {
+               
                 int masaE = Integer.parseInt(et_masa.getText().toString());
                 float alturaE = Float.parseFloat(et_altura.getText().toString());
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
                     tv_resultado.setText(textoTotal);
 
-                }
+                
             }
         });
 
